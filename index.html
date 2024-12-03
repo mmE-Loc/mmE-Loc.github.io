@@ -127,18 +127,25 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body" style="text-align:center">
-      <video id="teaser" width="640" height="360" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/outdoor.mp4"
+      <video id="teaser" width="1080" height="720" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/mmE-Loc indoor.mp4"
                 type="video/mp4">
       </video>
-      <!-- <div class="image-container">
-        <img src="./static/images/airport_ape_cdf.png" alt="Image 1" width="45%">
-        <img src="./static/images/airport_rpe_cdf.png" alt="Image 2" width="45%">
-      </div> -->
-
-
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">mmE-Loc</span> enhance Radar with Event Camera for Accurate Low Latency Drone Localization
+      <h2 class="content has-text-justified">
+        We conduct experiments in an indoor laboratory using the DJI Mini 3 Pro drone, with a motion capture system providing ground truth localization for the drone.
+        mmE-Loc achieves precise, low-latency drone localization by embracing and harmonizing the ultra-high sampling frequencies of mmWave radar and event camera.
+      </h2>
+      <video id="teaser" width="1080" height="720" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/mmE-Loc outdoor.mp4"
+                type="video/mp4">
+      </video>
+      <h2 class="content has-text-justified">
+        We conduct experiments using a custom six-propeller drone, developed by a leading delivery company which is exploring feasibility of instant drone delivery.
+        The drone follows a square spiral trajectory at an altitude of 30m. Results show that, in real-world scenarios, mmE-Loc achieves high localization precision, with maximum absolute location errors under 0.5m and relative location errors under 0.1m. 
+        Additionally, mmE-Loc produces smooth trajectories that closely align with RTK, underscoring its potential as a complementary system to RTK.
+      </h2>
+        <h2 class="subtitle has-text-centered">
+        <span class="dnerf">mmE-Loc</span> enhance Radar with Event Camera for Precise Low Latency Drone Localization
       </h2>
     </div>
   </div>
@@ -227,7 +234,7 @@
           <i>(ii)</i> The GAJO (Graph-informed Adaptive Joint Optimization) for fine localization and trajectory optimization of the drone.
           This module employs the <i>spatial complementarity</i> from both modalities to unleash the potential of event camera and mmWave radar in landing drone localization.
         </p>
-        <img src="./static/images/overview2.png" alt="Image 1" width="100%">
+        <img src="./static/images/overview.png" alt="Image 1" width="100%">
         </div>
       </div>
     </div>
